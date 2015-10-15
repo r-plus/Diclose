@@ -1,9 +1,9 @@
 Package: jp.r-plus.diclose
 Name: Diclose
 Depends: mobilesubstrate
-Version: 0.0.1
+Version: 0.0.2
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Swipe to close Define view.
 Maintainer: r_plus
 Author: r_plus
 Section: Tweaks

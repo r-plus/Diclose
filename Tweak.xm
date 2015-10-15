@@ -1,3 +1,5 @@
+%config(generator=internal)
+
 %hook UIReferenceLibraryViewController
 - (void)viewDidLoad
 {
