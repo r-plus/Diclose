@@ -1,3 +1,3 @@
 # Diclose
 
-Swipe to dismiss iOS system-wide `Define` modal view controller.
+Swipe to dismiss iOS system-wide `Look Up` modal view controller.
