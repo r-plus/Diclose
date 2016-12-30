@@ -5,8 +5,9 @@ TWEAK_NAME = Diclose
 Diclose_FILES = Tweak.xm
 Diclose_FRAMEWORKS = UIKit
 Diclose_LDFLAGS = -Wl,-segalign,4000
+Diclose_USE_SUBSTRATE = 0
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
 after-install::
-	install.exec "killall -9 MobileNotes"
+	install.exec "killall -9 MobileNotes DDActionsService"

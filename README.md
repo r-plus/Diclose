@@ -1,3 +1,3 @@
-# binary
+# Diclose
 
-[http://cl.ly/Tnxp](http://cl.ly/Tnxp)
+Swipe to dismiss iOS system-wide `Define` modal view controller.

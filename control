@@ -1,9 +1,10 @@
-Package: jp.r-plus.diclose
-Name: Diclose
-Depends: mobilesubstrate
-Version: 0.0.2
+Package: jp.r-plus.diclose.ddactions
+Name: Diclose(iOS 10)
+Depends: mobilesubstrate, firmware (>= 10.0)
+Version: 0.1
 Architecture: iphoneos-arm
 Description: Swipe to close Define view.
 Maintainer: r_plus
 Author: r_plus
 Section: Tweaks
+Conflicts: jp.r-plus.diclose
