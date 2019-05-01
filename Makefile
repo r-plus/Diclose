@@ -1,4 +1,5 @@
 ARCHS = armv7 arm64 arm64e
+TARGET = iphone:clang::10.0
 include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = Diclose
