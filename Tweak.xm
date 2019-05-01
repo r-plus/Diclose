@@ -6,7 +6,7 @@
 // root vc.
 @interface DDParsecTableViewController : UITableViewController
 @end
-// entity vc.
+// entity vc: iOS 10-11, deleted on 12.
 @interface DDDictionaryCardViewController : UIViewController <UIWebViewDelegate>
 @end
 // others vc.
@@ -28,6 +28,11 @@
 - (void)doneButtonPressedByDiclose
 {
     DDParsecServiceCollectionViewController *nv = (DDParsecServiceCollectionViewController *)self.navigationController;
+    // iOS12: DDDictionaryCardViewController is deleted.
+    if (kCFCoreFoundationVersionNumber >= 1556.00 && [self respondsToSelector:@selector(doneButtonPressed:)]) {
+        [(DDParsecServiceCollectionViewController *)self doneButtonPressed:nil];
+        return;
+    }
     if (!nv) { return; }
     [nv doneButtonPressed:nil];
 }
